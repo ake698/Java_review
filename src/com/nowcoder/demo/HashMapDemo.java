@@ -7,7 +7,10 @@ public class HashMapDemo {
 
     private static ArrayList<Character> tmpArr = new ArrayList<>();
     private static StringBuffer sb = new StringBuffer("");
+
+
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         String a = sc.nextLine();
         char com [] = a.toCharArray();
