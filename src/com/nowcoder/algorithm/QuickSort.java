@@ -11,7 +11,9 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int [] arr = new int[] {8,4,6,8,0,99,3};
-        quickSort(arr,0,arr.length-1);
+//        quickSort(arr,0,arr.length-1);
+//        selectSort(arr);
+        bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
     public static void quickSort(int[]arr,int start,int end){
@@ -46,6 +48,38 @@ public class QuickSort {
         quickSort(arr,low+1,end);
     }
 
+    }
+
+    //选择排序
+    public static void selectSort(int [] arr){
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i+1; j < arr.length ; j++) {
+                int temp;
+                if(arr[i]<arr[j]){
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+    }
+
+    //冒泡
+    public static void bubbleSort(int [] arr){
+        int temp;
+        for (int i = 0; i < arr.length; i++) {
+            boolean swap = true; //true 为没有交换元素，没有元素交换了 代表已经排好序 没必要再循环
+            for (int j = 0; j < arr.length-1-i; j++) { // -i 每次都会将最值冒泡移动到最右侧
+                if(arr[j]>arr[j+1]){
+                    temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                    swap = false;
+                }
+            }
+            if(swap)break;
+            System.out.println(Arrays.toString(arr));
+        }
     }
 
 }
