@@ -2,6 +2,8 @@ package com.nowcoder.algorithm;
 
 public class DiGui {
 
+    protected String a = "a";
+
     public static void main(String[] args) {
         test(0);
     }

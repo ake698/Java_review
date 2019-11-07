@@ -1,6 +1,9 @@
 package com.nowcoder.demo;
 
 
+/**
+ * 给出几个字符串 输出这几个字符串的所有不重复排列组合
+ */
 
 import java.util.*;
 

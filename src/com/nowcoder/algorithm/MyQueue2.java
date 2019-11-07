@@ -1,6 +1,6 @@
 package com.nowcoder.algorithm;
 
-public class Queue {
+public class MyQueue2 {
 
     //数组
     private long [] arr;
@@ -18,7 +18,7 @@ public class Queue {
     private int end;
 
     //构造方法
-    public Queue(int maxSize){
+    public MyQueue2(int maxSize){
         this.maxSize = maxSize;
         arr = new long[maxSize];
         elems = 0;
