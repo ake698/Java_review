@@ -49,7 +49,7 @@
     <property name="SearchEverywhereHistoryKey" value="HashMa&#9;PSI&#9;JAVA://java.util.HashMap&#10;String&#9;FILE&#9;jar://E:/javav/lib/src.zip!/java.base/java/lang/String.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/nowcoder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -62,15 +62,43 @@
       <recent name="E:\javademo\NowCoder\src\com\nowcoder\TreeAVL" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.User">
+  <component name="RunManager" selected="Application.RelectionDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.demo.LambdaTest" />
+    <configuration name="DynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.DesignPatterns.ProxyPattern.DynamicProxy" />
+      <module name="NowCoder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.DesignPatterns.ProxyPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Observer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.DesignPatterns.observer.Observer1" />
+      <module name="NowCoder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.DesignPatterns.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.demo.RelectionDemo" />
       <module name="NowCoder" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -83,41 +111,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortBySystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.demo.SortBySystem" />
+    <configuration name="StaticProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.DesignPatterns.ProxyPattern.StaticProxy" />
+      <module name="NowCoder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.DesignPatterns.ProxyPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.demo.TestDemo" />
       <module name="NowCoder" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nowcoder.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.DesignPatterns.StrategyPattern.User" />
-      <module name="NowCoder" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nowcoder.DesignPatterns.StrategyPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Z" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.Questions.Z" />
-      <module name="NowCoder" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nowcoder.Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,20 +141,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.demo.demo1" />
-      <module name="NowCoder" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nowcoder.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Z" />
-      <item itemvalue="Application.demo1" />
-      <item itemvalue="Application.LambdaTest" />
-      <item itemvalue="Application.SortBySystem" />
-      <item itemvalue="Application.User" />
+      <item itemvalue="Application.TestDemo" />
+      <item itemvalue="Application.Observer1" />
+      <item itemvalue="Application.StaticProxy" />
+      <item itemvalue="Application.DynamicProxy" />
+      <item itemvalue="Application.RelectionDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.User" />
-        <item itemvalue="Application.SortBySystem" />
-        <item itemvalue="Application.LambdaTest" />
-        <item itemvalue="Application.demo1" />
-        <item itemvalue="Application.Z" />
+        <item itemvalue="Application.RelectionDemo" />
+        <item itemvalue="Application.DynamicProxy" />
+        <item itemvalue="Application.StaticProxy" />
+        <item itemvalue="Application.Observer1" />
+        <item itemvalue="Application.TestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +243,8 @@
       <workItem from="1573037206092" duration="1017000" />
       <workItem from="1573043969742" duration="5193000" />
       <workItem from="1573101376184" duration="2488000" />
-      <workItem from="1578541115203" duration="2988000" />
+      <workItem from="1578541115203" duration="4792000" />
+      <workItem from="1579160444391" duration="3249000" />
     </task>
     <servers />
   </component>
@@ -254,18 +255,38 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="readme" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="649" y="194" key="#Auto_Import" timestamp="1579165171264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="649" y="194" key="#Auto_Import/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579165171264" />
     <state x="1920" y="645" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578541335553">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="1920" y="645" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1578541335553" />
-    <state x="814" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1578548556341">
+    <state x="814" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1579161383406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="814" y="280" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578548556341" />
+    <state x="814" y="280" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579161383406" />
     <state x="2712" y="462" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578541123596">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2712" y="462" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1578541123596" />
+    <state width="1345" height="283" key="GridCell.Tab.0.bottom" timestamp="1579165543716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1345" height="283" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579165543716" />
+    <state width="1345" height="283" key="GridCell.Tab.0.center" timestamp="1579165543716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1345" height="283" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579165543716" />
+    <state width="1345" height="283" key="GridCell.Tab.0.left" timestamp="1579165543716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1345" height="283" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579165543716" />
+    <state width="1345" height="283" key="GridCell.Tab.0.right" timestamp="1579165543716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1345" height="283" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579165543716" />
   </component>
   <component name="masterDetails">
     <states>

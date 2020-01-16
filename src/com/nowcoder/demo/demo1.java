@@ -21,6 +21,8 @@ import java.util.*;
 
 public class demo1 {
 
+    int a = 10;
+
     //取模运算，结果的符号和被除数y符号一致
     public static void  test1(){
         int x = -3;

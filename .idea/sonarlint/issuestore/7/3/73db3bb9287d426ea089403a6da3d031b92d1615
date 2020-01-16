@@ -1,0 +1,16 @@
+
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(»Üº‰
+Fsquid:S1481"*Remove this unused "list2" local variable.(‹œš©ıÿÿÿÿ
+Ssquid:S1191"5Use classes from the Java API instead of Sun classes.(â³åÏ8Æ‘Èø-
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚùÏ´
+[squid:S4143"DVerify this is the key that was intended; it was already set before.(¥úöÎ
+Fsquid:S1481"*Remove this unused "queue" local variable.(íÍ†üÿÿÿÿ
+`squid:UselessImportCheck"<Remove this unused import 'com.nowcoder.algorithm.MyQueue2'.(†¨òº
+squid:UselessImportCheck"TRemove this unused import 'com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType'.(â³åÏ8Æ‘Èø-
+Asquid:S1481
+"*Remove this unused "myMap" local variable.(ëËĞ
+Msquid:S1481"*Remove this unused "stack" local variable.(û›şöıÿÿÿÿ8Æ‘Èø-
+ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ8Æ‘Èø-
+Dsquid:S1481"(Remove this unused "set" local variable.(°«÷˜ÿÿÿÿÿ

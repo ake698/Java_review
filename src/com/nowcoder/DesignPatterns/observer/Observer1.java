@@ -1,5 +1,8 @@
 package com.nowcoder.DesignPatterns.observer;
 
+/**
+ * 订阅者们
+ */
 public class Observer1 implements Observer {
 
     private Subject subject;

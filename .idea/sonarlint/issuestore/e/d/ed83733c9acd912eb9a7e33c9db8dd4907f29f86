@@ -1,0 +1,24 @@
+
+Fsquid:S1612",Replace this lambda with a method reference.(±Ì¡ßøÿÿÿÿ
+Fsquid:S1612",Replace this lambda with a method reference.(Ø°ëåøÿÿÿÿ
+[squid:UselessImportCheck"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(±Ì¡ßøÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(éç¬ùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(­¸¤Êúÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶áÙÙ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(­Íğñşÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.( ¨öö
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ø°ëåøÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÅòŸˆ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(™çšùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Øïù
