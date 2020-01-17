@@ -7,6 +7,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="NowCoder" />
   </component>
@@ -34,9 +48,14 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\mavenrepo" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.2.2-bin\apache-maven-3.2.2\conf\settings.xml" />
+        <option name="localRepository" value="D:\data\mavenrepo" />
+        <option name="userSettingsFile" value="C:\Users\admin\.m2\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1W8pXH90kezytDvb1rQnEyqKCpK" />
@@ -51,7 +70,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -62,7 +84,7 @@
       <recent name="E:\javademo\NowCoder\src\com\nowcoder\TreeAVL" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RelectionDemo">
+  <component name="RunManager" selected="Application.TestAspect">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -83,13 +105,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Observer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.DesignPatterns.observer.Observer1" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.AspectJDemo.Example" />
       <module name="NowCoder" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nowcoder.DesignPatterns.observer.*" />
+          <option name="PATTERN" value="com.nowcoder.AspectJDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.AspectJDemo.MainTest" />
+      <module name="NowCoder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.AspectJDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,27 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.DesignPatterns.ProxyPattern.StaticProxy" />
+    <configuration name="TestAspect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.AspectJDemo.TestAspect" />
       <module name="NowCoder" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nowcoder.DesignPatterns.ProxyPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.demo.TestDemo" />
-      <module name="NowCoder" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nowcoder.demo.*" />
+          <option name="PATTERN" value="com.nowcoder.AspectJDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestDemo" />
-      <item itemvalue="Application.Observer1" />
-      <item itemvalue="Application.StaticProxy" />
       <item itemvalue="Application.DynamicProxy" />
       <item itemvalue="Application.RelectionDemo" />
+      <item itemvalue="Application.Example" />
+      <item itemvalue="Application.MainTest" />
+      <item itemvalue="Application.TestAspect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAspect" />
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.RelectionDemo" />
         <item itemvalue="Application.DynamicProxy" />
-        <item itemvalue="Application.StaticProxy" />
-        <item itemvalue="Application.Observer1" />
-        <item itemvalue="Application.TestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +266,8 @@
       <workItem from="1573043969742" duration="5193000" />
       <workItem from="1573101376184" duration="2488000" />
       <workItem from="1578541115203" duration="4792000" />
-      <workItem from="1579160444391" duration="3511000" />
+      <workItem from="1579160444391" duration="5802000" />
+      <workItem from="1579222727377" duration="3304000" />
     </task>
     <servers />
   </component>
@@ -275,37 +298,37 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2712" y="462" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1578541123596" />
-    <state width="1345" height="283" key="GridCell.Tab.0.bottom" timestamp="1579165729942">
+    <state x="206" y="223" key="FileChooserDialogImpl" timestamp="1579166810629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1345" height="283" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579165729942" />
-    <state width="1345" height="283" key="GridCell.Tab.0.center" timestamp="1579165729942">
+    <state x="206" y="223" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579166810629" />
+    <state width="1345" height="283" key="GridCell.Tab.0.bottom" timestamp="1579226883043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1345" height="283" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579165729942" />
-    <state width="1345" height="283" key="GridCell.Tab.0.left" timestamp="1579165729942">
+    <state width="1345" height="283" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579226883043" />
+    <state width="1345" height="283" key="GridCell.Tab.0.center" timestamp="1579226883043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1345" height="283" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579165729942" />
-    <state width="1345" height="283" key="GridCell.Tab.0.right" timestamp="1579165729942">
+    <state width="1345" height="283" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579226883043" />
+    <state width="1345" height="283" key="GridCell.Tab.0.left" timestamp="1579226883043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1345" height="283" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579165729942" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>10.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state width="1345" height="283" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579226883043" />
+    <state width="1345" height="283" key="GridCell.Tab.0.right" timestamp="1579226883043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1345" height="283" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579226883043" />
+    <state x="187" y="143" width="1040" height="871" key="SettingsEditor" timestamp="1579223692050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="187" y="143" width="1040" height="871" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579223692050" />
+    <state x="643" y="257" key="run.anything.popup" timestamp="1579167599692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="257" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579167599692" />
+    <state x="387" y="261" key="spring file set editor" timestamp="1579223683360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="387" y="261" key="spring file set editor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579223683360" />
   </component>
 </project>

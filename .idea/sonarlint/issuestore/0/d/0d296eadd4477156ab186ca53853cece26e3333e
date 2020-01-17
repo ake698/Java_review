@@ -1,0 +1,11 @@
+
+Nsquid:S4973"9Use the "equals" method if value comparison was intended.(„õÖê
+;squid:S2129"!Remove this "Integer" constructor(±Üº¤ûÿÿÿÿ
+Ssquid:S4973"9Use the "equals" method if value comparison was intended.(ÇÚà÷øÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÇÚà÷øÿÿÿÿ
+Zsquid:CallToDeprecatedMethod"/Remove this use of "Integer"; it is deprecated.(±Üº¤ûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ì±‡Ë
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(„õÖê

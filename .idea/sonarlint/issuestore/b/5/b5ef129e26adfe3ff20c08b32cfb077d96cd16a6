@@ -1,0 +1,10 @@
+
+@squid:S1068"+Remove this unused "subject" private field.(Ó Áë
+Csquid:S1481".Remove this unused "observer1" local variable.(Ñ«­´
+Hsquid:S1481".Remove this unused "observer2" local variable.(ãŸÅ£ûÿÿÿÿ
+@squid:S1068"+Remove this unused "subject" private field.(Ó Áë
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÁÉ†•ÿÿÿÿÿ
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»âéÔûÿÿÿÿ8›ô‹Ãø-
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÁÉ†•ÿÿÿÿÿ

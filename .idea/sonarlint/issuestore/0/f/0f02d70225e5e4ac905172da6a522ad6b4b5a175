@@ -1,36 +1,0 @@
-
-Osquid:S1444H",Make this "public static number" field final(ş„Ş”ûÿÿÿÿ8“ÄğÇø-
-Œ"squid:ClassVariableVisibilityCheckH"RMake number a static final constant or non-public and provide accessors if needed.(ş„Ş”ûÿÿÿÿ8“ÄğÇø-
-\squid:S4973#"9Use the "equals" method if value comparison was intended.(Å»ãêûÿÿÿÿ8“ÄğÇø-
-Wsquid:S4973$"9Use the "equals" method if value comparison was intended.(¡šæ™8“ÄğÇø-
-Vsquid:S4973%"9Use the "equals" method if value comparison was intended.(¥½†h8“ÄğÇø-
-qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ã«¦¡ùÿÿÿÿ8“ÄğÇø-
-qsquid:S00101C"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¨¸©ìıÿÿÿÿ8“ÄğÇø-
-_squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8“ÄğÇø-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ãêêÍ8“ÄğÇø-
-msquid:S00100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÀŠí8“ÄğÇø-
-Csquid:S1659"" Declare "f2" on a separate line.(ÒÀÈËüÿÿÿÿ8“ÄğÇø-
-Csquid:S1659"" Declare "f3" on a separate line.(ÒÀÈËüÿÿÿÿ8“ÄğÇø-
-Csquid:S1659"" Declare "f4" on a separate line.(ÒÀÈËüÿÿÿÿ8“ÄğÇø-
-Csquid:S1659"" Declare "f5" on a separate line.(ÒÀÈËüÿÿÿÿ8“ÄğÇø-
-Csquid:S1659"" Declare "f6" on a separate line.(ÒÀÈËüÿÿÿÿ8“ÄğÇø-
-[
-squid:S106#"9Replace this use of System.out or System.err by a logger.(Å»ãêûÿÿÿÿ8“ÄğÇø-
-V
-squid:S106$"9Replace this use of System.out or System.err by a logger.(¡šæ™8“ÄğÇø-
-U
-squid:S106%"9Replace this use of System.out or System.err by a logger.(¥½†h8“ÄğÇø-
-msquid:S00100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÄ£î8“ÄğÇø-
-Isquid:S2387D"&"a" is the name of a field in "DiGui".(ÏÕ şÿÿÿÿ8“ÄğÇø-
-[
-squid:S106J"9Replace this use of System.out or System.err by a logger.(ûÃìıÿÿÿÿ8“ÄğÇø-
-U
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(”÷²B8“ÄğÇø-
-[
-squid:S106W"9Replace this use of System.out or System.err by a logger.(İïˆ¨øÿÿÿÿ8“ÄğÇø-
-Fsquid:S1185Y"(Remove this method to simply inherit it.(µ½é²8“ÄğÇø-
-Xsquid:S1161Y":Add the "@Override" annotation above this method signature(µ½é²8“ÄğÇø-
-Xsquid:S1161\":Add the "@Override" annotation above this method signature(Ö‡«®8“ÄğÇø-
-V
-squid:S106]"9Replace this use of System.out or System.err by a logger.(Ú°¦8“ÄğÇø-

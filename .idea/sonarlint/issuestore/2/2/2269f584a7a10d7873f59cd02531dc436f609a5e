@@ -1,0 +1,28 @@
+
+<squid:S1444"'Make this "public static a" field final(İ¬ÔÚ
+y"squid:ClassVariableVisibilityCheck"MMake a a static final constant or non-public and provide accessors if needed.(İ¬ÔÚ
+fsquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(…èºüşÿÿÿÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ı¦àÌûÿÿÿÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(æ„Õøÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(øÏçúûÿÿÿÿ
+ %squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ
+Tsquid:S1118":Add a private constructor to hide the implicit public one.(Ô¬¸ªøÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(êÿö¡úÿÿÿÿ
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ô¨½Ò
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(åúÏ_
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…èºüşÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦Ûöøÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ú¿‡Óúÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ØÔÓÒúÿÿÿÿ
+Osquid:S2209"5Change this instance-reference to a static reference.(ØÔÓÒúÿÿÿÿ
+>squid:S1481")Remove this unused "foo2" local variable.(±ÎË
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒæÀ£
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™’é´
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŒÈŸ­ûÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òµÂ¯üÿÿÿÿ
